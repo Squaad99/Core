@@ -1,0 +1,122 @@
+
+.button {
+   -fx-background-color: #afb8c6;
+   -fx-background-insets: 0.0,1.0,2.0;
+   -fx-background-radius: 3.0,2.0,1.0;
+   -fx-text-fill: black;
+   -fx-border-radius: 5.0pt;
+   -fx-border-color: #000000;
+   -fx-border-width: 1.0pt;
+   -fx-background-radius: 5.0pt;
+}
+    
+.button:hover {
+   -fx-border-color: #095ee2;
+}
+
+.check-box{
+	-fx-text-fill: black;
+	-fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+    -fx-body-color: white;
+ }
+ 
+ .combo-box{
+ 	-fx-background: white;
+ 	-fx-border-radius: 5.0pt;
+    -fx-border-color: #000000;
+    -fx-border-width: 1.0pt;
+    -fx-background-radius: 5.0pt,5.0pt,5.0pt,5.0pt;
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 8.0, 0.0 , 0.0 , 0.0 );
+ }
+
+.text-area {
+  -fx-font-family: Consolas;
+  -fx-highlight-fill: #00ff00;
+  -fx-highlight-text-fill: #000000;
+  -fx-text-fill: black;
+  -fx-background-color: #000000;
+  -fx-font-size: 16.0pt;
+}
+
+.table-view{
+  -fx-text-fill: black;
+  -fx-background-color: white;
+  -fx-border-radius: 5.0pt;
+  -fx-border-color: #000000;
+  -fx-border-width: 1.0pt;
+  -fx-background-radius: 5.0pt,5.0pt,5.0pt,5.0pt;
+	
+}
+  
+.text-field {
+    -fx-background-color: white;
+    -fx-background-insets: 0.0 -1.0 -1.0 -1.0, 0.0 0.0 0.0 0.0, 0.0 -1.0 3.0 -1.0;
+    -fx-prompt-text-fill: gray ;
+    -fx-text-fill: black ;
+    -fx-background-radius: 5.0pt,5.0pt,5.0pt,5.0pt;
+    -fx-border-radius: 5.0pt;
+    -fx-border-color: #000000;
+    -fx-border-width: 1.0pt;
+}
+
+.button-Green{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: green, linear-gradient(to top left, #008000, #4dff4d);
+	-fx-text-fill: black;
+}
+
+.button-Yellow{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: yellow, linear-gradient(to top left, #e6e600, #ffff33);
+	-fx-text-fill: black;
+}
+
+.button-Orange{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: orange, linear-gradient(to top left, #FF8C00, #ffaa00);
+	-fx-text-fill: black;
+}
+
+.button-Red{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: orange, linear-gradient(to top left, #e60000, #ff471a);
+	-fx-text-fill: black;
+}
+
+.button-Empty{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: gray, linear-gradient(to top left, #D3D3D3, white);
+	-fx-text-fill: black;
+}
+
+.button-Passed{
+	-fx-background-radius: 15.0pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2.0pt;
+	-fx-border-radius: 15.0pt;
+	-fx-font-size: 16.0pt;
+	-fx-background-color: gray, linear-gradient(to top left, #2c3747, #808080);
+	-fx-text-fill: black;
+}
+

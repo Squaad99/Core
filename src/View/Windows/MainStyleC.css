@@ -1,0 +1,76 @@
+.button{
+	-fx-background-color: gray linear-gradient(to top left, black, #5d98cc);
+    -fx-text-fill: black;
+    -fx-border-color: #000000;
+    -fx-border-width: 2pt;
+    -fx-border-radius: 10pt;
+}
+
+
+.text-field {
+    -fx-background-color: white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-prompt-text-fill: gray ;
+    -fx-text-fill: black ;
+    -fx-background-radius: 5pt,5pt,5pt,5pt;
+    -fx-border-radius: 5pt;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+}
+
+
+.button-Green{
+	-fx-background-radius: 15pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 15pt;
+	-fx-font-size: 16pt;
+	-fx-background-color: green, linear-gradient(to top left, #008000, #4dff4d);
+	-fx-text-fill: black;
+}
+
+.button-Yellow{
+	-fx-background-radius: 15pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 15pt;
+	-fx-font-size: 16pt;
+	-fx-background-color: yellow, linear-gradient(to top left, #e6e600, #ffff33);
+	-fx-text-fill: black;
+}
+
+.button-Orange{
+	-fx-background-radius: 15pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 15pt;
+	-fx-font-size: 16pt;
+	-fx-background-color: orange, linear-gradient(to top left, #FF8C00, #ffaa00);
+	-fx-text-fill: black;
+}
+
+.button-Red{
+	-fx-background-radius: 15pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 15pt;
+	-fx-font-size: 16pt;
+	-fx-background-color: orange, linear-gradient(to top left, #e60000, #ff471a);
+	-fx-text-fill: black;
+}
+
+.button-Current{
+	
+	-fx-border-width: 10pt;
+	
+}
+
+.button-Empty{
+	-fx-background-radius: 15pt;
+	-fx-border-color: #000000;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 15pt;
+	-fx-font-size: 16pt;
+	-fx-background-color: orange, linear-gradient(to top left, gray, white);
+	-fx-text-fill: black;
+}
